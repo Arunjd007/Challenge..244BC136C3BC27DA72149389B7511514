@@ -1,0 +1,13 @@
+[9/13, 10:34 AM] +91 80565 46520: n=int(input("Enter number:"))
+fact = 1
+while (n>0):
+    fact = fact*n
+    n=n-1
+print("Factorial of the number is:")
+print(fact)
+[9/19, 1:00 PM] +91 97876 04728: year =int(input("Enter the year"))
+if (( year % 400 == 0) or ((year % 4 ==0) and (year %  100!=0))):
+
+       print("Leap Year", year)
+else:
+       print("Not Leap year", year)
